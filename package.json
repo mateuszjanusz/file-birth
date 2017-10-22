@@ -1,0 +1,9 @@
+{
+  "name": "file-birth",
+  "version": "0.1.0",
+  "description": "Easily get any file's creation date",
+  "main": "index.js",
+  "repository": "https://github.com/mateuszjanusz/file-birth.git",
+  "author": "Mateusz Janusz <mateuszjanusz95@gmail.com>",
+  "license": "MIT"
+}
