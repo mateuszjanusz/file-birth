@@ -14,8 +14,9 @@ npm install file-birth --save
 ```
 
 ## Usage
+
 ```js
-const birthDate = require('file-brith')
+const birthDate = require('file-birth')
 
 birthDate('myfile.txt')
 //=> 2017-10-22T12:00:00.000Z
@@ -39,6 +40,6 @@ birthDate('', 'dd-mm-yy')
 
 ## License
 
-[MIT License](https://github.com/mateuszjanusz/picsort/blob/master/LICENSE.md)
+[MIT License](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2017 Mateusz Janusz
