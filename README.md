@@ -19,19 +19,19 @@ npm install file-birth --save
 const birthDate = require('file-birth')
 
 birthDate('myfile.txt')
-//=> 2017-10-22T12:00:00.000Z
+// => 2017-10-22T12:00:00.000Z
 
 birthDate('myfile.txt', 'DD/MM/YYYY')
-//=> 22/10/2017
+// => 22/10/2017
 
 birthDate('myfile.txt', 'yyyy')
-//=> 2017
+// => 2017
 
 birthDate('myfile.txt', 'dd-mm-yy')
-//=> 22-10-17
+// => 22-10-17
 
 birthDate('', 'dd-mm-yy')
-//=> Error: file not found.
+// => Error: file not found.
 
 ```
 
